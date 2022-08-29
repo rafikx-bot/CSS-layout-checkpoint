@@ -1,0 +1,891 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.doc-group-logo{
+    padding-left: 270px;
+    margin-bottom: 15px;
+}
+.nav-link{
+    color:#ababab;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: rgb(0, 195, 165);
+}
+.nav-items{
+    list-style: none;
+    padding-left: 425px;
+    display: flex;
+    font-size: 14px;
+}
+
+.nav-item{
+    padding-left: 25px;
+}
+.content-1{
+    display: flex;
+    justify-content: center;
+}
+.sec-1{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.doc-icon{
+    text-align: center;
+    padding-top: 35px;
+}
+.sec-1 .title{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color:#00c3a5;
+    text-align: center;
+    padding-top: 25px;
+}
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+}
+.text-container .text-1{
+    color: #ababab;
+    font-size: 1.1rem;
+    
+}
+.text-container .text-2{
+    color: #ababab;
+    font-size: 1.1rem;
+    
+    
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sec-1 .card-1{
+    width: 310px;
+    height: 350px;
+    background-color: #00ccb1;
+    border-radius: 10px;
+    
+}
+.sec-1 .card-content-1{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    
+}
+.sec-1  .card-1 h1{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+.sec-1 .card-1 p{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.sec-1 .card-1 select {
+    margin-top: 70px;
+    background-color: transparent;
+    border: 0;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.sec-1 .card-1 option {
+    color: black;
+}
+.sec-1 .card-2 {
+    width: 310px;
+    height: 350px;
+    background-color: #3d83df;
+    border-radius: 10px;
+}
+
+.sec-1 .card-content-2 {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+
+}
+
+.sec-1 .card-2 h1 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.sec-1 .card-2 p {
+    color: white;
+    font-size: 1.5rem;
+
+}
+.sec-1 .card-2 select {
+    margin-top: 70px;
+    background-color: transparent;
+    border: 0;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.sec-1 .card-2 option {
+    color: black;
+}
+.sec-1 .card-3 {
+    width: 310px;
+    height: 350px;
+    background-color: #1b2734;
+    border-radius: 10px;
+}
+.sec-1 .card-content-3{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+
+}
+
+.sec-1 .card-3 h1 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.sec-1 .card-3 p {
+    color: white;
+    font-size: 1.5rem;
+
+}
+#countries-3{
+            margin-top: 30px;
+            background-color: transparent;
+            border: 0;
+            text-decoration: underline;
+            color: white;
+            font-size: 1.2rem;
+        }
+        option{
+            color:black;
+        }
+#countries-4{
+        margin-top: 20px;
+        background-color: transparent;
+        border: 0;
+        text-decoration: underline;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    option {
+        color: black;
+    }
+.sec-1 .low-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec-1 .left-content h1 {
+    line-height: 40px;
+    color: #00c3a5;
+}
+
+
+
+.content-2 {
+    width: 100vw;
+    height: 600px;
+    background-color:#d9f6f6;
+    display: flex;
+    justify-content: center;
+}
+.sec-2{ 
+   width: 66%;
+   display: flex;
+}
+.sec-2 .left-content{
+    width: 50%;
+}
+.sec-2 .left-content h1{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 40px;
+    margin-top: 80px;
+    color: #00c3a5;
+}
+.sec-2 .left-content p{
+    margin-top: 20px;
+    color: #ababab;
+    font-size: 0.9rem;
+    
+}
+.sec-2 .right-content{
+    width: 50%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 600px;
+}
+.sec-2 .card-1{
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-row: 1;
+    grid-column: 1;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.sec-2 .card-2 {
+    margin-top: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-row: 1;
+    grid-column: 1;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.sec-2 .card-3 {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-row: 1;
+    grid-column: 2;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.sec-2 .card-4 {
+    margin-top: 290px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-row: 1;
+    grid-column: 2;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.content-3 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.sec-3{ 
+    margin-top: 80px;
+    width: 66%;
+    text-align: center;
+}
+.content-4{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}  
+.sec-4{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns:75px 300px 30px 300px 30px 300px 75px;
+    grid-template-rows: 75px 350px 20px 350px 20px 350px 90px;
+}
+
+.sec-4 .card-1{
+    grid-column: 2;
+    grid-row: 2;
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}
+.sec-4 .card-2 {
+    grid-column: 4;
+    grid-row: 2;
+    align-self: center;
+    width: 300px;
+    height: 350px;
+    background-color:#fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}.sec-4 .card-3 {
+    grid-column: 6;
+    grid-row: 2;
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}
+.sec-4 .card-4 {
+    grid-column: 2;
+    grid-row: 4;
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}
+
+.sec-4 .card-5 {
+    grid-column: 4;
+    grid-row: 4;
+    align-self: center;
+    width: 300px;
+    height: 350px;
+    background-color:#fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}
+
+.sec-4 .card-6 {
+    grid-column: 6;
+    grid-row: 4;
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}
+.sec-4 .card-7{
+    grid-column: 2;
+    grid-row: 6;
+    align-self: center;
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}
+
+.sec-4 .card-8 {
+    grid-column: 4;
+    grid-row: 6;
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px #ababaa solid;
+}
+.sec-4 .info{
+    width: 100%;
+    margin-top :20px; ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.sec-4 .card-1:hover{
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.sec-4 .card-2:hover {
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.sec-4 .card-3:hover {
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.sec-4 .card-4:hover {
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.sec-4 .card-5:hover {
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.sec-4 .card-6:hover {
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.sec-4 .card-7:hover {
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.sec-4 .card-8:hover {
+    box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 18px 58px 0px rgba(0, 0, 0, 0.75);
+}
+.content-5{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.content-5 .btn{
+    height: 35px;
+    width: 200px;
+    border: 0;
+    border-radius: 5px;
+    background-color: royalblue;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: white;
+}
+.content-5 .btn:hover{
+    background-color: rgb(46, 80, 183);
+}
+.content-6 .sec-5{
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-align: center;
+    
+}
+
+.content-6 .sec-5 a{
+    text-decoration: none;
+    
+    font-size: 0.7rem;
+    
+
+}
+.sec-5 span ,label,p{
+    color: #ababaa;
+    
+}
+.content-6 .sec-5 a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+   .text-container{
+    display: inline;
+    width: 100%;
+   }
+   .text-container .text-1{
+    margin-bottom: 20px;
+   }
+   .cards-container {
+       display: block;
+       margin-top: 50px;
+       
+   }
+
+   .sec-1 .card-1 {
+       width: 240px;
+       margin-bottom: 30px;
+   }
+   .sec-1 .card-1 select {
+      
+       font-size: 0.9rem;
+   }
+   .sec-1 .card-2 {
+       width: 240px;
+       margin-bottom: 30px;
+   }
+   .sec-1 .card-2 select {
+
+       font-size: 0.9rem;
+   }
+   .sec-1 .card-3 {
+       width: 240px;
+       margin-bottom: 30px;
+   }
+  #countries-3 {
+      font-size: 0.9rem;
+  }
+  #countries-4 {
+      font-size: 0.9rem;
+  }
+  .content-2{
+    height: fit-content;
+  }
+  .sec-2 {
+    height: fit-content;
+      width: 80%;
+      display: block;
+
+  }
+  .sec-2 .left-content {
+      width: 100%;
+  }
+
+  .sec-2 .right-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    
+    
+  }
+  .sec-2 .card-1{
+    margin-top: 50px;
+    
+}
+.sec-2 .card-2 {
+    margin-top: 50px;
+    
+}
+.sec-2 .card-3 {
+    margin-top: 50px;
+    
+}
+.sec-2 .card-4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.sec-4 {
+    display: block;
+
+}
+.sec-4 .card-1 {
+    margin-bottom: 30px;
+}
+.sec-4 .card-1:hover {
+    display: none;
+}
+.sec-4 .card-2 {
+    margin-bottom: 30px;
+}
+
+.sec-4 .card-2:hover {
+    display: none;
+}
+.sec-4 .card-3 {
+    margin-bottom: 30px;
+}
+
+.sec-4 .card-3:hover {
+    display: none;
+}
+.sec-4 .card-4 {
+    margin-bottom: 30px;
+}
+
+.sec-4 .card-4:hover {
+    display: none;
+}
+.sec-4 .card-5 {
+    margin-bottom: 30px;
+}
+
+.sec-4 .card-5:hover {
+    display: none;
+}
+.sec-4 .card-6{
+    margin-bottom: 30px;
+}
+.sec-4 .card-6:hover {
+display: none;
+}
+.sec-4 .card-7 {
+    margin-bottom: 30px;
+}
+.sec-4 .card-7:hover {
+    display: none;
+}
+.sec-4 .card-8 {
+    margin-bottom: 30px;
+}
+
+.sec-4 .card-8:hover {
+    display: none;
+}
+}
+    @media (min-width: 768px) and (max-width: 992px)  {
+    
+    .sec-1 {
+        margin-left: 30px;
+            margin-right: 30px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    
+        }
+        .sec-1 .text-1{
+            padding-right: 20px;
+        }
+        .sec-1 .text-2{
+            padding-left: 20px;
+        }
+    .sec-1 .cards-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .content-2 {
+       
+        height: fit-content;
+    }
+    .sec-2{
+        width: 100%;
+        display: block;
+        text-align: center;
+        overflow-y: hidden;
+    }
+    .sec-2 .left-content{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .sec-2 .right-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .sec-2 .right-content >*{
+        margin: 0;
+    }
+        .content-3 {
+            width: 100vw;
+        }
+        .sec-3 {
+            margin-top: 80px;
+            width: 80%;
+            text-align: center;
+        }
+        .content-4 {
+            width: 100vw;
+            margin-top: 80px;
+        }
+    
+        .sec-4 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .sec-4 .card-1 {
+        margin-bottom: 30px;
+        }
+        
+        .sec-4 .card-1:hover {
+        display: none;
+        }
+        
+        .sec-4 .card-2 {
+        margin-bottom: 30px;
+        }
+        
+        .sec-4 .card-2:hover {
+        display: none;
+        }
+        
+        .sec-4 .card-3 {
+        margin-bottom: 30px;
+        }
+        .sec-4 .card-3:hover {
+        display: none;
+        }        
+        .sec-4 .card-4 {
+        margin-bottom: 30px;
+        }        
+        .sec-4 .card-4:hover {
+        display: none;
+        }        
+        .sec-4 .card-5 {
+        margin-bottom: 30px;
+        }        
+        .sec-4 .card-5:hover {
+        display: none;
+        }        
+        .sec-4 .card-6 {
+        margin-bottom: 30px;
+        }        
+       .sec-4 .card-6:hover {
+        display: none;
+        }        
+       .sec-4 .card-7 {
+        margin-bottom: 30px;
+        }
+       .sec-4 .card-7:hover {
+        display: none;
+        }        
+       .sec-4 .card-8 {
+        margin-bottom: 30px;
+        }        
+       .sec-4 .card-8:hover {
+        display: none;
+        }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .content-1{
+        width: 100%;
+    }
+    .sec-1 {
+            margin-left: 30px;
+            margin-right: 30px;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .sec-1 .text-1{
+            padding: 10px;
+        }
+        .sec-1 .text-2{
+            padding: 10px;
+        }
+    .sec-1 .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+        .sec-1 .cards-container .card-1{
+            margin-bottom: 30px;
+        }
+        .sec-2 {
+    
+            width: 100%;
+            display: block;
+            text-align: center;
+            overflow-y: hidden;
+        }
+        .sec-2 .left-content {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    
+        .sec-2 .right-content {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .sec-2 .right-content>* {
+            margin: 0;
+        }
+                .content-4 {
+                    width: 100vw;
+                    margin-top: 80px;
+                }
+        
+                .sec-4 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+        
+                .sec-4 .card-1 {
+                    margin-bottom: 30px;
+                }
+        
+                .sec-4 .card-1:hover {
+                    display: none;
+                }
+        
+                .sec-4 .card-2 {
+                    margin-bottom: 30px;
+                }
+        
+                .sec-4 .card-2:hover {
+                    display: none;
+                }
+        
+                .sec-4 .card-3 {
+                    margin-bottom: 30px;
+                }
+        
+                .sec-4 .card-3:hover {
+                    display: none;
+                }
+        
+                .sec-4 .card-4 {
+                    margin-bottom: 30px;
+                }
+        
+                .sec-4 .card-4:hover {
+                    display: none;
+                }
+                .sec-4 .card-5 {
+                    margin-bottom: 30px;
+                }
+                .sec-4 .card-5:hover {
+                    display: none;
+                }
+                .sec-4 .card-6 {
+                    margin-bottom: 30px;
+                }
+                .sec-4 .card-6:hover {
+                    display: none;
+                }
+                .sec-4 .card-7 {
+                    margin-bottom: 30px;
+                }
+                .sec-4 .card-7:hover {
+                    display: none;
+                }
+                .sec-4 .card-8 {
+                    margin-bottom: 30px;
+                }
+                .sec-4 .card-8:hover {
+                    display: none;
+                }
+}
+@media (min-width: 1200px){
+    .content-1 {
+            width: 100%;
+        }
+    
+        .sec-1 {
+            margin-left: 30px;
+            margin-right: 30px;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .sec-1 .text-1 {
+            padding: 10px;
+        }
+        .sec-1 .text-2 {
+            padding: 10px;
+        }
+        .sec-1 .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around
+        }
+                .sec-2 {
+                    width: 80%;
+                }
+                .sec-2 .left-content {
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+                .sec-2 .right-content {
+                    width: 50%;
+                }
+}
+
+
